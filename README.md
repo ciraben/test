@@ -1,68 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WebHack 0.4.1
 
-## Available Scripts
+WebHack is an abstract mashup of the classic terminal game NetHack and the original Windows 3.1 "Flying Windows" screensaver. I remember, as a kid, the exhilaration of flying through that starfield of windows on the screen. And I equally remember the disappointment of trying to interact with the "game" only to have the screensaver disappear. Sometimes grown-ups just miss the point.
 
-In the project directory, you can run:
+Built in React, WebHack features 20 different flavours of window each with a unique game effect, as well as a GUI that (ideally) reveals itself to the player as they progress. It was created over 3 days as part of the Ludum Dare 47 game jam.
 
-### `yarn start`
+Altogether, I worked about 45 hours over the course of the three days. This included learning the ropes of ReactJS and building myself an engine to process and render game events. This was my first big project in javascript, and my first time working with React, so I learned a lot on the fly. I say this because my result definitely pales in comparison to a lot of the Ludum Dare games out there, and I want to acknowledge that I did accomplish a lot, regardless. This was also my first time game-jamming solo, and my first solo game project run to completion! What an amazing experience.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+So, did I succeed in rectifying that game-void in my youth? Haha, probably not quite, at this point. But I did manage to pull together a complete, functional first draft all by myself, and that's a pretty cool feat!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
