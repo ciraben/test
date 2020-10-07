@@ -1,6 +1,6 @@
 {
-  "name": "test2",
-  "version": "0.1.0",
+  "name": "WebHack",
+  "version": "0.4.1",
   "private": true,
   "homepage": "https://ciraben.github.io/test",
   "dependencies": {

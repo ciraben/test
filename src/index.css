@@ -1,13 +1,109 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background: #222;
+  color: #999;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #999;
+}
+a:hover{
+  color: #BBB;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background: #444;
+}
+.active {
+  color: #BBB;
+}
+.app {
+  /* position: relative; */
+}
+.gamestate {
+  font-family: ocr-a-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+.splash {
+  text-align: center;
+  color: #999;
+  font-family: ocr-a-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+}
+.splash p {
+  margin: 0;
+}
+.splash a {
+  color: #999;
+}
+.splash a:hover {
+  color: #DDD;
+  text-decoration: none;
+}
+.new-game {
+  background-color: Transparent;
+}
+.window {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition-property: all;
+  transition-duration: 0.05s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
+
+  /* from https://stackoverflow.com/questions/22672368/how-to-make-a-transparent-html-button#22672444 */
+  background-color: Transparent;
+  /* background-color: blue; */
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+
+  margin: 0px;
+  padding: 0px;
+
+  &--dead {
+    transition-property: none;
+  }
+}
+#HP-bar {
+  position: fixed;
+  z-index: 1000;
+  background: Transparent;
+  width: 90vw;
+  left: 5vw;
+  top: 90vh;
+}
+#artifacts {
+  position: fixed;
+  z-index: 1000;
+  background: Transparent;
+  width: 20vw;
+  left: 85vw;
+  top: 15vh;
+}
+.omen {
+  position: fixed;
+  width: 30vw;
+}
+
+#navbar {
+  height: 10vh;
+  color: #999;
+}
+#navbar a {
+  color: #999;
+  text-decoration: none;
+}
+#navbar a:hover {
+  color: #BBB;
+}
+#welcome-section {
+  height: 90vh;
+  background-color: black;
 }
